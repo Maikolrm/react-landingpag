@@ -22,7 +22,7 @@ function OurGallery() {
   function Image({ image }) {
     return (
       <div className="gallery-img rounded-sm overflow-hidden">
-        <img className="w-full h-full object-cover" src={`/images/gallery/${image.src}`} alt={image.alt} />
+        <img className="w-full h-full object-cover" src={`https://ik.imagekit.io/of8sk3s88sie/landingpage/${image.src}`} alt={image.alt} />
       </div>
     )
   }
