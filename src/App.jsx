@@ -21,11 +21,11 @@ function App() {
       <OurTrainers />
       <OurServices />
       <OurGallery />
-      <SiteBanner src="/images/gallery/gallery-img-6.jpg" alt="Spinning Class" />
+      <SiteBanner src="https://ik.imagekit.io/of8sk3s88sie/landingpage/gallery-img-6.jpg" alt="Spinning Class" />
       <OurPricing />
-      <SiteBanner src="/images/gallery/gallery-img-3.jpg" alt="Power Lifting" />
+      <SiteBanner src="https://ik.imagekit.io/of8sk3s88sie/landingpage/gallery-img-3.jpg" alt="Spinning Class" />
       <OurReviews />
-      <SiteBanner src="/images/gallery/gallery-img-7.jpg" alt="Body Building" />
+      <SiteBanner src="https://ik.imagekit.io/of8sk3s88sie/landingpage/gallery-img-7.jpg" alt="Spinning Class" />
       <OurContacts />
       <div className="section bg-gray-100">
         <h6 className="text-sm text-center text-gray-400">hernandez maikol {new Date().getFullYear()}</h6>
