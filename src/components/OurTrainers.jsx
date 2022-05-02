@@ -18,7 +18,7 @@ function OurTrainers() {
     return (
       <div className={`flex flex-col rounded overflow-hidden ${index == 1 ? 'xl:flex-col-reverse' : ''}`}>
         <div className="h-[50vw] max-h-[450px]">
-          <img className="w-full h-full object-cover" src={`/images/${trainer.avatar}`} alt={trainer.name} />
+          <img className="w-full h-full object-cover" src={`https://ik.imagekit.io/of8sk3s88sie/landingpage/${trainer.avatar}`} alt={trainer.name} />
         </div>
         <div className={"p-5 flex flex-col justify-center sm:h-[50vw] sm:max-h-[450px] " + (index == trainers.length - 1 ? 'pb-0' : '')}>
           <h2 className="font-semibold text-xl text-gray-600 leading-none">{trainer.name}</h2>
