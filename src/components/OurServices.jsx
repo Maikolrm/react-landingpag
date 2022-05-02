@@ -18,7 +18,7 @@ function OurServices() {
     return (
       <div className="rounded-sm overflow-hidden">
         <div className="h-[50vw] max-h-[350px] overflow-hidden">
-          <img className="w-full h-full object-cover" src={`/images/${service.banner}`} alt="Spinning Class" />
+          <img className="w-full h-full object-cover" src={`https://ik.imagekit.io/of8sk3s88sie/landingpage/${service.banner}`} alt="Spinning Class" />
         </div>
         <div className={"py-6 md:pb-0 " + (index == services.length - 1 ? 'pb-0' : '')}>
           <h2 className="mt-1 text-md font-semibold text-gray-600 leading-none">{service.name}</h2>
